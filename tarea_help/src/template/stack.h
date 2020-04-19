@@ -35,9 +35,9 @@ public:
 
     void print_elements(ostream& os);
 
-    /*
-    friend ostream& operator<<(ostream& os, Stack<T> const& s);
-    */
+    friend ostream& operator<<(ostream& os, Stack<T> const& s){// intente usar s.print_elements(os) pero no me dejaba.
+        return os;
+    }
 };
 
 

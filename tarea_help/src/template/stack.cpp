@@ -12,7 +12,6 @@ Stack<T>::Stack(){}
 
 
 
-
 template <class T>
 int Stack<T>::size(){
     return elements.size();
@@ -61,13 +60,20 @@ bool Stack<T>::empty(){
 
 template <class T>
 void Stack<T>::print_elements(ostream& os){
-
+    for (Stack<T> dump=*this;!dump.empty();dump.pop()) {
+        os<<dump.top()<<endl;
+    }
 }
+//s
+
 
 /*
 template <class T>
-ostream& operator<<(ostream& os, Stack<T> const& s){
+ostream& operator<<(ostream& os,Stack<T> const& s){
 
+    return os;
 }
 */
+
+
 #endif

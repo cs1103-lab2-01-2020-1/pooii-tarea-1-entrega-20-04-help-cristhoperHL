@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/crist/Desktop/pooii-tarea-1-entrega-20-04-help-cristhoperHL/tarea_help/src/lib.h
+iostream
+-
+vector
+-
+string
+-
+
+/mnt/c/Users/crist/Desktop/pooii-tarea-1-entrega-20-04-help-cristhoperHL/tarea_help/src/main.cpp
+template/stack.cpp
+/mnt/c/Users/crist/Desktop/pooii-tarea-1-entrega-20-04-help-cristhoperHL/tarea_help/src/template/stack.cpp
+
+/mnt/c/Users/crist/Desktop/pooii-tarea-1-entrega-20-04-help-cristhoperHL/tarea_help/src/template/stack.cpp
+stack.h
+/mnt/c/Users/crist/Desktop/pooii-tarea-1-entrega-20-04-help-cristhoperHL/tarea_help/src/template/stack.h
+
+/mnt/c/Users/crist/Desktop/pooii-tarea-1-entrega-20-04-help-cristhoperHL/tarea_help/src/template/stack.h
+../lib.h
+/mnt/c/Users/crist/Desktop/pooii-tarea-1-entrega-20-04-help-cristhoperHL/tarea_help/src/lib.h
+
